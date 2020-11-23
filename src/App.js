@@ -6,10 +6,19 @@ import Gallery from "./components/Gallery"
 import "./App.css"
 
 class App extends React.Component {
+  state = {
+    images: []
+  }
+
+  setImages = fetchedImages => {
+    this.setState({
+      images: fetchedImages
+    })
+  }
   render() {
     return (
       <>
-        <Search />
+        <Search setImages={this.setImages} />
         <Gallery />
       </>
     )
