@@ -24,7 +24,7 @@ class SearchResult extends React.Component {
             this.props.displayImages.map((photoUrl, index) => {
               return (
                 <li>
-                  <img key={index} src={photoUrl} />
+                  <img key={index} alt="" src={photoUrl} />
                 </li>
               )
             })
