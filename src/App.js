@@ -2,7 +2,7 @@ import React from "react"
 
 import Search from "./components/Search"
 import Gallery from "./components/Gallery"
-
+import SearchResults from "./components/SearchResults"
 import "./App.css"
 
 class App extends React.Component {
