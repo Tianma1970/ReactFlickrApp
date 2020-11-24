@@ -19,7 +19,9 @@ class App extends React.Component {
     return (
       <>
         <Search setImages={this.setImages} />
+
         <Gallery />
+        <SearchResult displayImages={this.state.images} />
       </>
     )
   }
