@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Tianma1970/ReactFlickrApp.git/static/css/main.8c3b7fba.chunk.css",
-    "main.js": "/Tianma1970/ReactFlickrApp.git/static/js/main.4edc8966.chunk.js",
-    "main.js.map": "/Tianma1970/ReactFlickrApp.git/static/js/main.4edc8966.chunk.js.map",
-    "runtime-main.js": "/Tianma1970/ReactFlickrApp.git/static/js/runtime-main.37f0e2b2.js",
-    "runtime-main.js.map": "/Tianma1970/ReactFlickrApp.git/static/js/runtime-main.37f0e2b2.js.map",
-    "static/js/2.a81ec1d0.chunk.js": "/Tianma1970/ReactFlickrApp.git/static/js/2.a81ec1d0.chunk.js",
-    "static/js/2.a81ec1d0.chunk.js.map": "/Tianma1970/ReactFlickrApp.git/static/js/2.a81ec1d0.chunk.js.map",
-    "static/js/3.e3adf20f.chunk.js": "/Tianma1970/ReactFlickrApp.git/static/js/3.e3adf20f.chunk.js",
-    "static/js/3.e3adf20f.chunk.js.map": "/Tianma1970/ReactFlickrApp.git/static/js/3.e3adf20f.chunk.js.map",
-    "index.html": "/Tianma1970/ReactFlickrApp.git/index.html",
-    "static/css/main.8c3b7fba.chunk.css.map": "/Tianma1970/ReactFlickrApp.git/static/css/main.8c3b7fba.chunk.css.map",
-    "static/js/2.a81ec1d0.chunk.js.LICENSE.txt": "/Tianma1970/ReactFlickrApp.git/static/js/2.a81ec1d0.chunk.js.LICENSE.txt"
+    "main.css": "/ReactFlickrApp/static/css/main.8c3b7fba.chunk.css",
+    "main.js": "/ReactFlickrApp/static/js/main.4edc8966.chunk.js",
+    "main.js.map": "/ReactFlickrApp/static/js/main.4edc8966.chunk.js.map",
+    "runtime-main.js": "/ReactFlickrApp/static/js/runtime-main.7bf26c0f.js",
+    "runtime-main.js.map": "/ReactFlickrApp/static/js/runtime-main.7bf26c0f.js.map",
+    "static/js/2.a81ec1d0.chunk.js": "/ReactFlickrApp/static/js/2.a81ec1d0.chunk.js",
+    "static/js/2.a81ec1d0.chunk.js.map": "/ReactFlickrApp/static/js/2.a81ec1d0.chunk.js.map",
+    "static/js/3.e3adf20f.chunk.js": "/ReactFlickrApp/static/js/3.e3adf20f.chunk.js",
+    "static/js/3.e3adf20f.chunk.js.map": "/ReactFlickrApp/static/js/3.e3adf20f.chunk.js.map",
+    "index.html": "/ReactFlickrApp/index.html",
+    "static/css/main.8c3b7fba.chunk.css.map": "/ReactFlickrApp/static/css/main.8c3b7fba.chunk.css.map",
+    "static/js/2.a81ec1d0.chunk.js.LICENSE.txt": "/ReactFlickrApp/static/js/2.a81ec1d0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.37f0e2b2.js",
+    "static/js/runtime-main.7bf26c0f.js",
     "static/js/2.a81ec1d0.chunk.js",
     "static/css/main.8c3b7fba.chunk.css",
     "static/js/main.4edc8966.chunk.js"
