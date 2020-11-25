@@ -1,7 +1,6 @@
 import React from "react"
 
 import Search from "./components/Search"
-import Gallery from "./components/Gallery"
 import SearchResult from "./components/SearchResult"
 import "./App.css"
 
@@ -19,8 +18,6 @@ class App extends React.Component {
     return (
       <>
         <Search setImages={this.setImages} />
-
-        <Gallery />
         <SearchResult displayImages={this.state.images} />
       </>
     )
