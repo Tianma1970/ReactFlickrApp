@@ -11,8 +11,8 @@ class SearchResult extends React.Component {
    */
 
   displayImages = photoUrls => {
-    const imageHtmlList = `<ul class="searchresults-list">${imageListItem}</ul>`
     const imageListItem = `<li>${photoUrls}</li>`
+    const imageHtmlList = `<ul class="searchresults-list">${imageListItem}</ul>`
     console.log(imageHtmlList)
   }
   render() {
