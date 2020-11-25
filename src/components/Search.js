@@ -4,13 +4,19 @@ class Search extends React.Component {
   /*Fetch Flickr photos and
   dispatch handling */
   state = {
-    searchText: ""
+    searchText: "",
+    errorMessage: ""
   }
 
   handleTextChange = e => this.setState({ searchText: e.target.value })
 
   fetchFlickrSearchResult = e => {
     e.preventDefault()
+    if (!this.state.searchText) {
+      this.setState({
+        errorMessage: "You need to search for something"
+      })
+    }
     const url = "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=b54580f369a7eeebecb2004dc429d08f&format=json&nojsoncallback=1&text=" + this.state.searchText
 
     fetch(url)
@@ -26,29 +32,6 @@ class Search extends React.Component {
         console.log(photoUrls)
       })
   }
-  /*Build URL from the response from Flickr and insert it into the DOM
-   */
-
-  /*Toggles the selected state of an image and 
- updates the array of selected image urls
- the url array is then persisted in localStorage
- */
-  toggleImageSelected(e) {
-    //toggle selceted class on the <li>
-    const isLiSelected = this.helpers.closest(e.target, "li").classList.toggle("selected")
-
-    //add or remove from local Storage
-    if (isLiSelected) {
-      this.lStorage.add(e.target.src)
-    } else {
-      this.lStorage.remove(e.target.src)
-    }
-  }
-  /*Builds a url to an Flickr image from the data
-   */
-  getImageUrl(farmId, serverId, id, secret) {
-    return `https://farm${farmId}.staticflickr.com/${serverId}/${id}_${secret}_m.jpg`
-  }
 
   render() {
     return (
@@ -61,9 +44,9 @@ class Search extends React.Component {
               Search
             </button>
           </div>
-          <div className="gallery-button__wrapper">
-            <button className="gallery-button">Show Gallery</button>
-          </div>
+          <div className="gallery-button__wrapper">{/* <button className="gallery-button" onClick={this.showGallery}>
+              Show Gallery
+            </button> */}</div>
         </div>
 
         <div className="message__container"></div>
